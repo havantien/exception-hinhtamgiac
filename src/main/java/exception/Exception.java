@@ -19,7 +19,7 @@ public class Exception extends Throwable {
         private void calculate(int a, int b, int c) throws Exception{
         try {
             if(a > 0 && b > 0 && c > 0){
-                System.out.println("dung");
+                System.out.println("đúng");
             } else if (a + b > c && a + c > b && c + b > a){
                 System.out.println("đúng");
             } else {
