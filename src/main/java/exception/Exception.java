@@ -1,6 +1,5 @@
 package exception;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Exception extends Throwable {
